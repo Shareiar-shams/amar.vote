@@ -1,0 +1,881 @@
+/*
+***************************************************************
+***************************************************************
+
+Template Name  : NAME | One Page Multipurpose Template
+Author         : Hassan
+Author URI     : http: //hasanrashed.com
+File           : Style.css
+
+
+@NOTE: This file contains the stylesheet for this template.
+you may need to edit this file to change your contents style.
+This file contents are outlined below
+
+***************************************************************
+***************************************************************
+
+========== INDEX PAGE CSS ==========
+------------------------------------
+
+*** -  1. Template Default Css
+*** -  2. Template Background Css
+*** -  3. Template Position Css 
+*** -  4. Template Hover Css   
+*** -  5. Template Buttons Css
+*** -  6. Header Area Css
+*** -  7. Welcome Area Css
+*** -  8. Service Area Css
+*** -  9. Team Area Css
+*** - 10. Video Area Css 
+*** - 11. Work Area Css
+*** - 12. Testimonial Area Css
+*** - 13. Pricing Area Css
+*** - 14. Project Complete Area Css
+*** - 15. Blog Area Css
+*** - 16. Map Area Css
+*** - 17. Brand Area Css
+*** - 18. Footer Area Css
+*** - 19. Template Hover Css
+*** - 20. Template Transition Css
+
+
+*/
+
+/****
+*   GOOGLE FONTS
+*   =============================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Roboto:400,500,700');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #222;
+    line-height: 1.5em;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+
+/*
+=========----------------------------------=========
+            1.Template Default Css     
+=========----------------------------------=========
+*/
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-padding-2 {
+    padding: 50px 0;
+}
+
+.submition-top {
+    margin-top: 46px;
+    background: #fff;
+}
+
+.submition-top a {
+    margin-bottom: 5px;
+}
+
+/*
+=========----------------------------------=========
+            2.header Css     
+=========----------------------------------=========
+*/
+
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #5D5D5E;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #F04D3F;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5D5D5E;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.logo img {
+    margin-top: 3px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.sister-con-logo {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.sister-con-logo img {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.consurn {
+    width: 100%;
+    height: 80px;
+}
+
+.sister-consurn {
+    margin-top: 65px;
+}
+
+.consurn-content {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.total-submission a {
+    display: block;
+    color: #666;
+    background: #ddd;
+    padding: 12px 0;
+    margin: 5px 0;
+}
+
+header {
+    position: relative;
+    z-index: 999;
+}
+
+.main-menu {
+    background: #fff;
+}
+
+.partners-content img {
+    border: 1px solid #666;
+}
+
+.partners-logo {
+    margin-top: -8px;
+    margin-bottom: -4px;
+}
+
+.partners-content {
+    padding: 10px;
+}
+
+.web-title h2 {
+    margin: 0;
+}
+
+/*
+=========----------------------------------=========
+            3.Hero Area Css     
+=========----------------------------------=========
+*/
+
+.carousel-indicators .active {
+    background-color: #F04D3F;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 95%;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 0%;
+    margin-left: 0%;
+    list-style: none;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    transition: .3s;
+}
+
+.carousel-control-next:hover {
+    background: rgba(44, 44, 44, 0);
+    background: -moz-linear-gradient(left, rgba(44, 44, 44, 0) 0%, rgba(44, 44, 44, 0.59) 41%, rgba(43, 43, 43, 0.77) 53%, rgba(35, 35, 35, 1) 69%, rgba(28, 28, 28, 1) 83%, rgba(19, 19, 19, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(44, 44, 44, 0)), color-stop(41%, rgba(44, 44, 44, 0.59)), color-stop(53%, rgba(43, 43, 43, 0.77)), color-stop(69%, rgba(35, 35, 35, 1)), color-stop(83%, rgba(28, 28, 28, 1)), color-stop(100%, rgba(19, 19, 19, 1)));
+    background: -webkit-linear-gradient(left, rgba(44, 44, 44, 0) 0%, rgba(44, 44, 44, 0.59) 41%, rgba(43, 43, 43, 0.77) 53%, rgba(35, 35, 35, 1) 69%, rgba(28, 28, 28, 1) 83%, rgba(19, 19, 19, 1) 100%);
+    background: -o-linear-gradient(left, rgba(44, 44, 44, 0) 0%, rgba(44, 44, 44, 0.59) 41%, rgba(43, 43, 43, 0.77) 53%, rgba(35, 35, 35, 1) 69%, rgba(28, 28, 28, 1) 83%, rgba(19, 19, 19, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(44, 44, 44, 0) 0%, rgba(44, 44, 44, 0.59) 41%, rgba(43, 43, 43, 0.77) 53%, rgba(35, 35, 35, 1) 69%, rgba(28, 28, 28, 1) 83%, rgba(19, 19, 19, 1) 100%);
+    background: linear-gradient(to right, rgba(44, 44, 44, 0) 0%, rgba(44, 44, 44, 0.59) 41%, rgba(43, 43, 43, 0.77) 53%, rgba(35, 35, 35, 1) 69%, rgba(28, 28, 28, 1) 83%, rgba(19, 19, 19, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c2c2c', endColorstr='#131313', GradientType=1);
+}
+
+.carousel-control-prev:hover {
+    background: rgba(44, 44, 44, 1);
+    background: -moz-linear-gradient(left, rgba(44, 44, 44, 1) 24%, rgba(44, 44, 44, 0.78) 41%, rgba(43, 43, 43, 0.62) 53%, rgba(28, 28, 28, 0.22) 83%, rgba(19, 19, 19, 0) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(24%, rgba(44, 44, 44, 1)), color-stop(41%, rgba(44, 44, 44, 0.78)), color-stop(53%, rgba(43, 43, 43, 0.62)), color-stop(83%, rgba(28, 28, 28, 0.22)), color-stop(100%, rgba(19, 19, 19, 0)));
+    background: -webkit-linear-gradient(left, rgba(44, 44, 44, 1) 24%, rgba(44, 44, 44, 0.78) 41%, rgba(43, 43, 43, 0.62) 53%, rgba(28, 28, 28, 0.22) 83%, rgba(19, 19, 19, 0) 100%);
+    background: -o-linear-gradient(left, rgba(44, 44, 44, 1) 24%, rgba(44, 44, 44, 0.78) 41%, rgba(43, 43, 43, 0.62) 53%, rgba(28, 28, 28, 0.22) 83%, rgba(19, 19, 19, 0) 100%);
+    background: -ms-linear-gradient(left, rgba(44, 44, 44, 1) 24%, rgba(44, 44, 44, 0.78) 41%, rgba(43, 43, 43, 0.62) 53%, rgba(28, 28, 28, 0.22) 83%, rgba(19, 19, 19, 0) 100%);
+    background: linear-gradient(to right, rgba(44, 44, 44, 1) 24%, rgba(44, 44, 44, 0.78) 41%, rgba(43, 43, 43, 0.62) 53%, rgba(28, 28, 28, 0.22) 83%, rgba(19, 19, 19, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c2c2c', endColorstr='#131313', GradientType=1);
+}
+
+/*
+=========----------------------------------=========
+            4.Template Hover Css     
+=========----------------------------------=========
+*/
+
+.section-title {
+    margin-bottom: 35px;
+}
+
+.single-crd-bdy {
+    width: 100%;
+    height: 100%;
+}
+
+.single-dealing {
+    margin-bottom: 30px;
+}
+
+.single-crd-bdy-part {
+    width: 50%;
+    float: left;
+}
+
+.single-crd-bdy-part button {
+    border: 1px solid #F04D3F;
+    cursor: pointer;
+    background: #F04D3F;
+    color: #fff;
+    transition: .3s;
+    margin: 0 2px;
+    display: inline-flex;
+}
+
+.single-crd-bdy-part a {
+
+    border: 1px solid #F04D3F;
+    cursor: pointer;
+    background: #F04D3F;
+    color: #fff;
+    transition: .3s;
+    margin: 0 2px;
+    display: inline-flex;
+        padding: 1px 4px;
+        text-decoration: none;
+}
+.single-crd-bdy-part a:hover{
+    background: #fff;
+    color: #F04D3F;
+}
+.single-crd-bdy-part i.icofont {
+    margin: 2px 0;
+    margin-right: 5px;
+}
+
+.single-crd-bdy-part button:hover {
+    background: #fff;
+    color: #F04D3F;
+}
+
+.single-crd-bdy-part h6 {
+    margin: 0;
+}
+
+.single-crd-bdy p {
+    font-size: 16px;
+}
+
+.single-crd-bdy p i.icofont {
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.single-crd-bdy span {
+    margin-top: 5px;
+    position: ;
+    position: absolute;
+}
+
+.single-dealing .card-title {
+    font-size: 18px;
+}
+
+/*
+=========----------------------------------=========
+            5.About.php Css     
+=========----------------------------------=========
+*/
+
+.logo-part {
+    width: 33%;
+    float: left;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.preti-list li {
+    list-style-type: circle;
+}
+
+.preti-list {
+    margin-left: 50px;
+}
+
+.query-contact-part {
+    width: 50%;
+    float: left;
+}
+
+.query-contact-part img {
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #F8B703;
+    margin-left: -19px;
+}
+
+.query-contact-part p {
+    margin-bottom: 0;
+}
+
+.query-contact-fream {
+    width: 100%;
+    height: 160px;
+}
+
+.query-contact-container {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.price-txt {
+    margin: 0px 0;
+}
+
+#about-description {
+    background: #fcfcfc;
+}
+
+.page-title {
+    margin-top: 36px;
+}
+
+.description-content {
+    margin-top: 95px;
+}
+
+/*
+=========----------------------------------=========
+            6.Popular.php Css     
+=========----------------------------------=========
+*/
+
+.single-popular a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    transition: .3s;
+}
+
+.single-popular a:hover {
+    box-shadow: 0 0 5px #666;
+}
+
+.single-popular h5 {
+    color: #F04D3F;
+}
+
+.single-popular span {
+    display: block;
+    font-size: 76%;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+}
+
+.single-popular i.icofont {
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+.single-popular {
+    margin: 15px 0;
+}
+
+.popular-content {
+    margin-top: 30px;
+}
+
+/*
+=========----------------------------------=========
+            Detail.php Css     
+=========----------------------------------=========
+*/
+
+#detail .single-popular {
+    border-bottom: 1px solid #666;
+}
+
+#detail .single-popular a:hover {
+    box-shadow: 0 0 0px #fff;
+}
+
+/*
+=========----------------------------------=========
+            Stars Story PHP Css     
+=========----------------------------------=========
+*/
+
+.siingle-story .card-body {
+    padding: 0;
+    border-bottom: 3px solid #333;
+}
+
+.siingle-story h4 {
+    padding: 0 15px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.story-content {
+    margin-top: 50px;
+}
+
+.siingle-story {
+    margin-bottom: 30px;
+}
+
+/*
+=========----------------------------------=========
+            10.Footer Area Css     
+=========----------------------------------=========
+*/
+
+.copy-right {
+    background: #ddd;
+    padding: 20px 0;
+}
+
+.footer-top p {
+    margin: 0;
+}
+
+/*
+=========----------------------------------=========
+            10.Footer Area Css     
+=========----------------------------------=========
+*/
+
+/*
+=========----------------------------------=========
+            Admin-submit.php Css     
+=========----------------------------------=========
+*/
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn {
+    border: 1px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.single-input label {
+    display: block;
+    text-transform: uppercase;
+}
+
+.single-input input {
+    width: 100%;
+    height: 38px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.single-input textarea {
+    width: 100%;
+    height: 130px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+}
+
+.up-img-here {
+    width: 100%;
+    height: 250px;
+    background: #ddd;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 9;
+}
+
+.up-img-here:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "\f024";
+    font-family: icofont;
+    font-size: 115px;
+    line-height: 250px;
+    z-index: -1;
+}
+
+.up-img-here img {
+    width: 100%;
+    height: 250px;
+}
+
+.submission-form {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 40px 15px;
+}
+
+.single-input-sub button {
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #F04D3F;
+    cursor: pointer;
+    color: #F04D3F;
+    transition: .3s;
+    margin-top: 20px;
+}
+
+.single-input-sub button:hover {
+    background: #F04D3F;
+    color: #fff;
+}
+
+/*
+=========----------------------------------=========
+            Scroll To Top Area Css     
+=========----------------------------------=========
+*/
+
+.top {
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+    display: none;
+    background: #fff;
+    border: 2px solid #FA4C1C;
+    z-index: 99;
+    color: #FA4C1C;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.top i.fa {
+    line-height: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top:after {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #FA4C1C;
+    content: "";
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.top:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.top:hover:after {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    height: 100%;
+}
+
+.top {
+    display: none;
+    bottom: 70px;
+}
+
+
+/*
+=========----------------------------------=========
+            Pre Loader Area Css     
+=========----------------------------------=========
+*/
+
+.sk-folding-cube {
+    margin: 20px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+
+.sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FA4C1C;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+    animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+
+.sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+    transform: scale(1.1) rotateZ(90deg);
+}
+
+.sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+    transform: scale(1.1) rotateZ(180deg);
+}
+
+.sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+    transform: scale(1.1) rotateZ(270deg);
+}
+
+.sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+@-webkit-keyframes sk-foldCubeAngle {
+    0%,
+    10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+    }
+    25%,
+    75% {
+        -webkit-transform: perspective(140px) rotateX(0deg);
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+    }
+    90%,
+    100% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+    }
+}
+
+@keyframes sk-foldCubeAngle {
+    0%,
+    10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+    }
+    25%,
+    75% {
+        -webkit-transform: perspective(140px) rotateX(0deg);
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+    }
+    90%,
+    100% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+    }
+}
+
+
+/****
+*   Pre Loader Custom CSS
+*   =============================
+*/
+
+.pre-loader-area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 999999;
+}
+
+.sk-folding-cube {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+
+/*
+ -------------------=======================----------------
+|                       BLOG PAGE CSS                      |
+ -------------------=======================----------------
+*/
+.pulse-button {
+    position: relative;
+    width: 100%;
+    height: 38px;
+    border: none;
+    box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+    background-color: #e84c3d;
+    cursor: pointer;
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+.pulse-button:hover {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    animation: none;
+}
+
+@-webkit-keyframes pulse {
+    to {
+        box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+    }
+}
+
+@-moz-keyframes pulse {
+    to {
+        box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+    }
+}
+
+@-ms-keyframes pulse {
+    to {
+        box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+    }
+}
+
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+    }
+}

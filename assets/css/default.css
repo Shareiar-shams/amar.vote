@@ -1,0 +1,398 @@
+/*
+***************************************************************
+***************************************************************
+
+Template Name  : NAME | One Page Multipurpose Template
+Author         : Hassan
+Author URI     : http: //hasanrashed.com
+File           : Style.css
+
+
+@NOTE: This file contains the stylesheet for this template.
+you may need to edit this file to change your contents style.
+This file contents are outlined below
+
+***************************************************************
+***************************************************************
+
+========== INDEX PAGE CSS ==========
+------------------------------------
+
+*** -  1. Template Default Css
+*** -  2. Template Background Css
+*** -  3. Template Position Css 
+*** -  4. Template Hover Css   
+*** -  5. Template Buttons Css
+*** -  6. Header Area Css
+*** -  7. Welcome Area Css
+*** -  8. Service Area Css
+*** -  9. Team Area Css
+*** - 10. Video Area Css 
+*** - 11. Work Area Css
+*** - 12. Testimonial Area Css
+*** - 13. Pricing Area Css
+*** - 14. Project Complete Area Css
+*** - 15. Blog Area Css
+*** - 16. Map Area Css
+*** - 17. Brand Area Css
+*** - 18. Footer Area Css
+*** - 19. Template Hover Css
+*** - 20. Template Transition Css
+
+
+*/
+
+
+/****
+*   GOOGLE FONTS
+*   =============================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700i|Lato:400,700');
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #222;
+    line-height: 1.5em;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+
+/*
+=========----------------------------------=========
+            1.Template Default Css     
+=========----------------------------------=========
+*/
+
+.section-padding {
+    padding: 100px 0;
+}
+
+
+/*
+=========----------------------------------=========
+            2.Template Background Css     
+=========----------------------------------=========
+*/
+
+
+/*
+=========----------------------------------=========
+            3.Template Position Css     
+=========----------------------------------=========
+*/
+
+
+/*
+=========----------------------------------=========
+            4.Template Hover Css     
+=========----------------------------------=========
+*/
+
+
+/*
+=========----------------------------------=========
+            5.Template Buttons Css     
+=========----------------------------------=========
+*/
+
+
+/*
+=========----------------------------------=========
+            6.Header Area Css     
+=========----------------------------------=========
+*/
+
+
+/*
+=========----------------------------------=========
+            7.Welcome Area Css     
+=========----------------------------------=========
+*/
+
+
+/*
+=========----------------------------------=========
+            10.Footer Area Css     
+=========----------------------------------=========
+*/
+/*
+=========----------------------------------=========
+            10.Footer Area Css     
+=========----------------------------------=========
+*/
+
+.copy-context p {
+    margin: 0;
+    padding: 20px 0;
+}
+
+.copy-context {
+    border-top: 1px solid #48B96E;
+}
+
+.copy-right {
+    opacity: 0.9;
+    color: #48B96E;
+}
+
+.copy-context img {
+    width: 120px;
+    margin-left: 4px;
+}
+
+
+/*
+=========----------------------------------=========
+            Scroll To Top Area Css     
+=========----------------------------------=========
+*/
+
+.top {
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+    display: none;
+    background: #fff;
+    border: 2px solid #FA4C1C;
+    z-index: 99;
+    color: #FA4C1C;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.top i.fa {
+    line-height: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top:after {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #FA4C1C;
+    content: "";
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.top:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.top:hover:after {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    height: 100%;
+}
+
+.top {
+    display: none;
+    bottom: 70px;
+}
+
+
+/*
+=========----------------------------------=========
+            Pre Loader Area Css     
+=========----------------------------------=========
+*/
+
+.sk-folding-cube {
+    margin: 20px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+
+.sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FA4C1C;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+    animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+
+.sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+    transform: scale(1.1) rotateZ(90deg);
+}
+
+.sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+    transform: scale(1.1) rotateZ(180deg);
+}
+
+.sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+    transform: scale(1.1) rotateZ(270deg);
+}
+
+.sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+@-webkit-keyframes sk-foldCubeAngle {
+    0%,
+    10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+    }
+    25%,
+    75% {
+        -webkit-transform: perspective(140px) rotateX(0deg);
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+    }
+    90%,
+    100% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+    }
+}
+
+@keyframes sk-foldCubeAngle {
+    0%,
+    10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+    }
+    25%,
+    75% {
+        -webkit-transform: perspective(140px) rotateX(0deg);
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+    }
+    90%,
+    100% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+    }
+}
+
+
+/****
+*   Pre Loader Custom CSS
+*   =============================
+*/
+
+.pre-loader-area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 999999;
+}
+
+.sk-folding-cube {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+
+/*
+ -------------------=======================----------------
+|                       BLOG PAGE CSS                      |
+ -------------------=======================----------------
+*/
