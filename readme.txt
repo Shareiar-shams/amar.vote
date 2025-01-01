@@ -1,12 +1,35 @@
 ==================================================================================================
 
-DESCRIPTION:
+## DESCRIPTION:
 
-GLINT is a modern and stylish digital agency HTML template. Designed for creative designers, agencies
-freelancers, photographer or any creative profession. It is fully responsive and retina/hi-dpi ready
-making it pixel sharp on any devices. It has animating stats section, working contact form, 
-stylish portfolio section and other features you will only find on premium html templates. 
-Built with clean and organized code, this template is very easy to customize.
+This repository houses the source code for a comprehensive voting system designed to:
+
+    Gather User Opinions: Facilitate the collection of resident opinions and preferences regarding key issues and desired outcomes from the new government.
+    
+    Inform Political Parties: Provide a platform for political parties to showcase their policies and commitments to address the concerns of the electorate.
+    
+    Promote Transparency: Enhance election transparency by providing a clear overview of the electoral process, including rules, regulations, and candidate information.
+    
+    Empower Citizens: Empower citizens to actively participate in the democratic process by expressing their views and making informed voting decisions.
+
+## Key Features:
+
+    User Registration & Authentication: Secure user registration and login for both voters and administrators.
+
+    Opinion Surveys & Polls: Interactive features for collecting user opinions on various issues.
+
+    Candidate Profiles: Display detailed information about candidates and their party platforms.
+
+    Election Information: Provide comprehensive information about election dates, rules, and regulations.
+
+    Secure Voting System: Implement robust security measures to ensure the integrity and confidentiality of votes.
+
+    Result Analysis & Reporting: Generate comprehensive reports on election results and voter preferences.
+
+## Technologies Used:
+
+PHP: Server-side scripting language for core application logic.
+JavaScript: Client-side scripting for interactive user interfaces.
 
 ==================================================================================================
 
